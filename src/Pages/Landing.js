@@ -42,15 +42,15 @@ export default function Landing() {
       <footer>
         <p className="text500">Contact us</p>
         <div className="icons-box">
-          <Link to="https://www.facebook.com/tilekbergen.muhamet/">
-            <FacebookIcon className="icon" className="three-icon" />
-          </Link>
-          <Link to="https://www.instagram.com/ti_qu11/">
-            <InstagramIcon className="icon" className="three-icon" />
-          </Link>
-          <Link to="https://wa.me/+77776842179">
-            <WhatsAppIcon className="icon" className="three-icon" />
-          </Link>
+          <a href="https://www.facebook.com/tilekbergen.muhamet/">
+            <FacebookIcon className="icon" />
+          </a>
+          <a href="https://www.instagram.com/ti_qu11/">
+            <InstagramIcon className="icon" />
+          </a>
+          <a href="https://wa.me/+77776842179">
+            <WhatsAppIcon className="icon" />
+          </a>
         </div>
       </footer>
     </div>

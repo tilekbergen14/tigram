@@ -19,6 +19,7 @@ header {
 }
 .icon {
   cursor: pointer;
+  color: black;
 }
 .section {
   flex: 1;
